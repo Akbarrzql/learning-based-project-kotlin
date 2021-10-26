@@ -15,7 +15,7 @@ fun main() {
     println("Yakin Sudah Benar?")
     val yakin = readLine()!!.toString()
 
-    when(readLine()){
+    when(yakin){
         "Benar" -> {
             println("Nama Anda Adalah = $Nama")
         println("Tempat Tanggal Lahir = $Ttl")
