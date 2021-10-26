@@ -7,7 +7,7 @@ fun main() {
     println("==========================")
 
     println("Masukan Pilihan : ")
-    readLine()!!.toString()
+    val pilihan = readLine()!!.toString()
 
     var Angka : Int
     var Angka2 : Int
@@ -16,7 +16,7 @@ fun main() {
     var Luas : Double
 
 
-    when(readLine()){
+    when(pilihan){
         "1. Cek Bilangan Genap" ->{
             println("Bilangan Genap")
             println("Masukan Angka : ")
