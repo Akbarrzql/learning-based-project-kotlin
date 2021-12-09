@@ -10,10 +10,8 @@ object KonversiScannerSuhu {
         println("Keseluruhan")
 
         print("Masukan Menu Yang Dipilih: ")
-        val pilihan = readLine()!!.toString()
-
-
-        when(pilihan){
+  
+        when(readLine()!!.toString()){
             "Reamur" ->{
                 val r : Double
                 print("Masukan Bilangan = ")
